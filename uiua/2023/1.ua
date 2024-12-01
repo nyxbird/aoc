@@ -1,6 +1,10 @@
-P₁ ← /+⊜(⋕⊂⊃⊢⊣▽⊸∈+@0⇡10)⊸≠@\n
+Aoc ~ "aoc.ua"
+
+P₁ ← /+Aoc~Lines!(
+  ⋕⊂⊃⊢⊣▽⊸∈+@0⇡10
+)
 
 Digits ← {"zero""one""two""three""four""five""six""seven""eight""nine"}
-P₂     ← /+⊜(+×10⊃⊢⊣▽⊸±+⊃(/+×°⊏≡◇⌕Digits¤|∵⍣⋕0))⊸≠@\n
+P₂     ← /+Aoc~Lines!(+×10⊃⊢⊣▽⊸±+⊃(/+×°⊏≡◇⌕Digits¤|∵⍣⋕0))
 
-&p$"1: _\n2: _"⊃P₁P₂&fras"1.in"
+Aoc~Solve‼P₁P₂1
